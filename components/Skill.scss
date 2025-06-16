@@ -1,0 +1,118 @@
+#skills {
+  padding: 2rem;
+  background-color:#080808; // Deep purple background
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media (max-width: 768px) {
+    padding: 1.5rem;
+  }
+
+  @media (max-width: 480px) {
+    padding: 1rem;
+  }
+}
+
+.skillsTitle {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color:  #00bfff;
+  text-align: center;
+  text-shadow: 0 0 8px rgba(0, 191, 255, 0.6);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  @media (max-width: 768px) {
+    font-size: 3rem;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 2.3rem;
+  }
+}
+
+.skillsDescription {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #ffffff;
+  text-align: center;
+  padding-left: 80px;
+  padding-right: 80px;
+
+  @media (max-width: 768px) {
+    font-size: 1rem;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 0.95rem;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.skillsBars {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+  width: 100%;
+}
+
+.skillsBar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: #3c035b;
+  padding: 1rem 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(4, 195, 253, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 100%;
+  max-width: 1200px;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+  }
+}
+
+.skillsBar:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(4, 195, 253, 0.8), 0 0 15px rgba(4, 195, 253, 0.6);
+}
+
+.skillsBarImg {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+
+  @media (max-width: 480px) {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.skillsBarText h2 {
+  font-size: 1.4rem;
+  margin: 0;
+  color: #ffffff;
+
+  @media (max-width: 480px) {
+    font-size: 1.2rem;
+  }
+}
+
+.skillsBarText p {
+  font-size: 1rem;
+  margin: 0.5rem 0 0;
+  color: #ffffff;
+
+  @media (max-width: 480px) {
+    font-size: 0.9rem;
+  }
+}

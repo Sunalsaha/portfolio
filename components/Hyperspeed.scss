@@ -1,0 +1,18 @@
+#lights {
+  position: fixed; // So it stays in place during scroll
+  top: 0;
+  left: 0;
+  width: 100vw;    // Full viewport width
+  height: 100vh;   // Full viewport height
+  overflow: hidden;
+  z-index: -1;     // Send it behind main content
+  background-color: black;
+}
+
+canvas {
+  display: block;       // Removes unexpected white space
+  width: 100vw;
+  height: 100vh;
+     // Ensures aspect fill
+  pointer-events: none; // Makes canvas non-interactive if needed
+}
