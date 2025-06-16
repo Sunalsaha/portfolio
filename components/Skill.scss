@@ -1,10 +1,11 @@
 #skills {
-  padding: 2rem;
+ 
   background-color:#080808; // Deep purple background
 
   display: flex;
   flex-direction: column;
   align-items: center;
+  z-index: -1;;
 
   @media (max-width: 768px) {
     padding: 1.5rem;

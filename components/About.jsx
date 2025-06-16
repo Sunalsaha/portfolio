@@ -45,7 +45,7 @@ const About = () => {
       {/* Floating Title outside scroll animation */}
       <div className="about-heading text-center z-20 mb-10">
         <h1 className="text-4xl md:text-6xl font-bold text-[#00bfff]">
-         About Me
+          About Me
         </h1>
       </div>
 

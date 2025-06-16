@@ -34,7 +34,7 @@ function FloatingPaths({ position = 1 }) {
           <filter
             id={`glow-${path.id}`}
             key={`glow-${path.id}`}
-            x="-100%" y="-100%" width="300%" height="300%"
+            x="-100%" y="-100%" width="400%" height="400%"
           >
             <feDropShadow
               dx="0"

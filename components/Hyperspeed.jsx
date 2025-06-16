@@ -1,8 +1,8 @@
 import { useEffect, useRef } from "react";
 import * as THREE from 'three';
-import { BloomEffect, EffectComposer, EffectPass, RenderPass, SMAAEffect, SMAAPreset } from 'postprocessing';
 import React from "react";
 
+import { BloomEffect, EffectComposer, EffectPass, RenderPass, SMAAEffect, SMAAPreset } from 'postprocessing';
 
 import './Hyperspeed.scss';
 
